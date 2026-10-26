@@ -334,8 +334,9 @@ BSD-3-Clause — see [LICENSE](LICENSE).
 Eduardo Lúcio Amorim Costa — Brazil-ES ·
 [LinkedIn](https://www.linkedin.com/in/eduardo-software-livre/)
 
-This is free software and will stay that way. If it saved you some time,
-consider a donation through
-[PayPal](https://www.paypal.com/donate/?hosted_button_id=TANFQFHXMZDZE).
+This is free software and will stay that way. If it saved you some time, come
+and say hello on
+[LinkedIn](https://www.linkedin.com/in/eduardo-software-livre/).
+
 Set `I_SUPPORT_FREE_SOFTWARE_N_THIS_WORK=1` in your configuration to silence
-the support notice.
+the notice printed on every run.

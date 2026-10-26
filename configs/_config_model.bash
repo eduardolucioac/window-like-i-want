@@ -58,7 +58,7 @@ KILL_WINDOW_FOR_DEBUG=0
 # of your desktop.
 ISOLATE_APPLICATION_STATE=1
 
-# 1 silences the support notice.
+# 1 silences the note printed on every run.
 I_SUPPORT_FREE_SOFTWARE_N_THIS_WORK=0
 
 # window-like-i-want - Window Like I Want "inverted (c)" BSD-3-Clause

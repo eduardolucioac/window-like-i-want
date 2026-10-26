@@ -1,5 +1,5 @@
 function f_ask_support() {
-    : 'Display a notice asking for a donation.
+    : 'Print a note about the project, and an invitation to get in touch.
 
     NOTE: Drawn with the same helpers as the dialogs, at the same fixed width.
     It used to be a hand drawn box carved out of a HEREDOC with
@@ -20,8 +20,8 @@ function f_ask_support() {
     support_body="I'm just a regular everyday normal guy with bills and family.
 This is an open-source project and will continue to be so forever.
 
-Please consider to deposit a donation through PayPal:
-https://www.paypal.com/donate/?hosted_button_id=TANFQFHXMZDZE"
+If it was useful to you, come and say hello:
+https://www.linkedin.com/in/eduardo-software-livre/"
 
     f_dialog_box_draw "SUPPORT FREE SOFTWARE AND MY WORK!" "$support_body" "Have fun!"
 }

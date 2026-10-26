@@ -35,7 +35,7 @@ reference document out of the repository.
 2. **A successful run always ended with an error dialog.**
     `f_error_handling` was called unconditionally at the end of
     `f_controller`. It now takes a message and is reached only from a failed
-    step. Its body was also a copy of the donation notice; it now says what
+    step. Its body was also a copy of the support notice; it now says what
     went wrong, wrapped to the box width with `printf` rather than through
     heredoc backslash escaping, which is what had the ASCII art misaligned by
     one column.

@@ -264,7 +264,8 @@ application keeps its window state the same way, in
 
 ### `I_SUPPORT_FREE_SOFTWARE_N_THIS_WORK` — optional, `1` or `0`
 
-Set to `1` to stop the support notice from being printed on every run.
+Set to `1` to stop the note printed on every run — a line about the project
+and an invitation to get in touch.
 
 ```bash
 I_SUPPORT_FREE_SOFTWARE_N_THIS_WORK=1
