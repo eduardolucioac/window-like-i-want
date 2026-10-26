@@ -1,0 +1,24 @@
+# The configurations hold the commands, sizes and screen indexes of the machine
+# they run on, so nothing inside "configs" is tracked, apart from the model.
+# The rule is scoped to that folder on purpose: a name based rule would let a
+# config named after a project file slip into a commit.
+/configs/*
+!/configs/_config_model.bash
+
+# Build output of the KWin script is committed on purpose: it is what the
+# project loads, and Node.js is not needed to run it.
+kwin-script/node_modules/
+
+# Editor settings of whoever is working on it.
+/.vscode/
+
+# Backup copies.
+*_BAK
+*_BAK_*
+*.bak
+*~
+
+# Earlier revisions, kept locally for reference.
+/_GOLD/
+/_BAK/
+/_TRASH/
