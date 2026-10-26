@@ -329,7 +329,7 @@ order, which need not match System Settings. Try the other indexes.
 
 ## License and support
 
-BSD-3-Clause — see [kwin-script/LICENSE](kwin-script/LICENSE).
+BSD-3-Clause — see [LICENSE](LICENSE).
 
 Eduardo Lúcio Amorim Costa — Brazil-ES ·
 [LinkedIn](https://www.linkedin.com/in/eduardo-software-livre/)
