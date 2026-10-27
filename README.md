@@ -1,5 +1,7 @@
 # window-like-i-want
 
+![window-like-i-want](./images/window-like-i-want.png)
+
 Start an application and have **KWin** put its window exactly where you want
 it: size, position, screen, window mode and stacking — described in a small
 configuration file, applied the moment the window appears.
@@ -23,7 +25,7 @@ command, and place **that** window at the top right of my third monitor at
 - [Testing](#testing)
 - [Troubleshooting](#troubleshooting)
 - [Known limitations](#known-limitations)
-- [License and support](#license-and-support)
+- [About](#about)
 
 ---
 
@@ -244,6 +246,7 @@ tests/
   preview-dialogs.bash          open the four dialogs to look at them
   README.md                     how the testing works
 docs/configuration.md           every configuration variable
+images/                         the banner and the flag used by this file
 CHANGELOG.md
 ```
 
@@ -327,16 +330,19 @@ order, which need not match System Settings. Try the other indexes.
   it tiles. Docking and `WINDOW_MODE` go through KWin "slots", which act on the
   active window, so the script activates the target first.
 
-## License and support
+---
 
-BSD-3-Clause — see [LICENSE](LICENSE).
-
-Eduardo Lúcio Amorim Costa — Brazil-ES ·
-[LinkedIn](https://www.linkedin.com/in/eduardo-software-livre/)
+## About
 
 This is free software and will stay that way. If it saved you some time, come
-and say hello on
-[LinkedIn](https://www.linkedin.com/in/eduardo-software-livre/).
+and say hello.
 
 Set `I_SUPPORT_FREE_SOFTWARE_N_THIS_WORK=1` in your configuration to silence
 the notice printed on every run.
+
+window-like-i-want 🄯 BSD-3-Clause — see [LICENSE](LICENSE)  
+Eduardo Lúcio Amorim Costa  
+Brazil-ES  
+https://www.linkedin.com/in/eduardo-software-livre/
+
+![Brazil](./images/brazil.png)
