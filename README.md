@@ -6,6 +6,11 @@ Start an application and have **KWin** put its window exactly where you want
 it: size, position, screen, window mode and stacking — described in a small
 configuration file, applied the moment the window appears.
 
+> **KDE only.** The whole mechanism is a KWin script loaded over D-Bus, so
+> this runs on a KDE Plasma desktop and nowhere else — not GNOME, not XFCE,
+> not a bare window manager. There is no fallback for other desktops, and
+> none is planned.
+
 KDE Plasma can remember window rules, but it cannot express *"launch this
 command, and place **that** window at the top right of my third monitor at
 563x440"*. This project can, by generating a throwaway KWin script per run.
@@ -35,7 +40,7 @@ command, and place **that** window at the top right of my third monitor at
 
 | Requirement | Why |
 |---|---|
-| KDE Plasma with **KWin** (tested on Plasma 6) | the window manager being scripted |
+| **KDE Plasma with KWin** (tested on Plasma 6) | the window manager being scripted — there is no support for any other desktop |
 | `qdbus` | loads and unloads the generated KWin script |
 | **BASH 4.3+** | the code relies on namerefs (`local -n`) |
 | `awk` | the decimal latency arithmetic |
@@ -336,6 +341,8 @@ order, which need not match System Settings. Try the other indexes.
 
 ## Known limitations
 
+- **KDE only.** Placement is done by a KWin script; without KWin there is
+  nothing to load it into.
 - **One window per run, matched by PID.** An application that hands the request
   to an already running instance (most browsers) spawns no new PID and cannot
   be targeted; a command opening several windows has all of them matched.
