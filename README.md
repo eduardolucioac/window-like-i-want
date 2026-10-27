@@ -1,6 +1,6 @@
 # window-like-i-want
 
-![window-like-i-want](./images/window-like-i-want.png)
+![window-like-i-want](./images/window-like-i-want.gif)
 
 Start an application and have **KWin** put its window exactly where you want
 it: size, position, screen, window mode and stacking — described in a small
@@ -246,7 +246,7 @@ tests/
   preview-dialogs.bash          open the four dialogs to look at them
   README.md                     how the testing works
 docs/configuration.md           every configuration variable
-images/                         the banner and the flag used by this file
+images/                         the animated banner, the still one and the flag
 CHANGELOG.md
 ```
 
