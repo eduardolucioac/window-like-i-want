@@ -73,6 +73,9 @@ WINDOW_WIDTH=563
 WINDOW_HEIGHT=440
 ```
 
+To read the numbers off a window you have already sized by hand, see
+[Finding a window's size in pixels](../README.md#finding-a-windows-size-in-pixels).
+
 Leave both empty to let the size be worked out instead:
 
 - if `SCREEN_INDEX` names a screen the window is not already on, the window

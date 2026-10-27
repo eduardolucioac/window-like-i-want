@@ -152,6 +152,23 @@ Positions are short codes:
 `WINDOW_X_POSITION`/`WINDOW_Y_POSITION` override `WINDOW_POSITION` with
 absolute pixel coordinates.
 
+### Finding a window's size in pixels
+
+Rather than guessing, size and place the window by hand first and read the
+numbers off it:
+
+1. **Alt+F3** over the window
+2. **More actions** -> **Special window settings**
+3. **Detect window properties**, then click the window
+
+The **Size** and **Position** it reports are the same values this project
+writes, so they go straight into `WINDOW_WIDTH`/`WINDOW_HEIGHT` and
+`WINDOW_X_POSITION`/`WINDOW_Y_POSITION`.
+
+On a fractionally scaled screen KWin measures in non-integer logical pixels, so
+a window can come back as `1707.33x1033.33`. Round it: the KWin script truncates
+what you write to a whole pixel anyway.
+
 ## How it works
 
 Two halves that meet through a generated file.
